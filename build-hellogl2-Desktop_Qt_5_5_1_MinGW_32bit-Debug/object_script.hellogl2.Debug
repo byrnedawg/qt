@@ -1,0 +1,13 @@
+INPUT(
+./debug/glwidget.o
+./debug/main.o
+./debug/window.o
+./debug/mainwindow.o
+./debug/logo.o
+./debug/window.o
+./debug/logo.o
+./debug/glwidget.o
+./debug/moc_glwidget.o
+./debug/moc_window.o
+./debug/moc_mainwindow.o
+);

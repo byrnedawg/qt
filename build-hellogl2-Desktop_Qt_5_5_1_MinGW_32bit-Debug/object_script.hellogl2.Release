@@ -1,0 +1,13 @@
+INPUT(
+./release/glwidget.o
+./release/main.o
+./release/window.o
+./release/mainwindow.o
+./release/logo.o
+./release/window.o
+./release/logo.o
+./release/glwidget.o
+./release/moc_glwidget.o
+./release/moc_window.o
+./release/moc_mainwindow.o
+);
