@@ -4,6 +4,9 @@
 #include <qopengl.h>
 #include <QVector>
 #include <QVector3D>
+#include <iostream>
+
+using namespace std;
 
 class Logo
 {
@@ -14,8 +17,8 @@ public:
     int vertexCount() const { return m_count / 6; }
 
 private:
-    void quad(GLfloat x1, GLfloat y1, GLfloat x2, GLfloat y2, GLfloat x3, GLfloat y3, GLfloat x4, GLfloat y4);
-    void extrude(GLfloat x1, GLfloat y1, GLfloat x2, GLfloat y2);
+    void quad(GLfloat x1, GLfloat y1, GLfloat x2, GLfloat y2, GLfloat x3, GLfloat y3, GLfloat x4, GLfloat y4, GLfloat quadThickness);
+    void extrude(GLfloat x1, GLfloat y1, GLfloat x2, GLfloat y2, GLfloat extrudeThickness);
     void add(const QVector3D &v, const QVector3D &n);
 
     QVector<GLfloat> m_data;
